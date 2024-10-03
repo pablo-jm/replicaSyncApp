@@ -1,0 +1,219 @@
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    flex-flow: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#logo{
+    width: 150px;
+    margin: 0 0 0 10px;
+}
+
+#mainMenu{
+    width: 80%;
+    flex-flow: row;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+}
+
+#mainMenu ul{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 10px 0 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(45, 44, 44);
+    font-weight: 700;
+}
+
+#dropdown button{
+    border: none;
+    background-color: white;
+    color: rgb(45, 44, 44);
+    font-weight: 700;
+}
+
+nav a:hover, #dropdown button:hover{
+    color: #FF4B63;
+}
+
+#dropdownMenu{
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgb(83, 81, 81);
+    display: none;
+    min-width: 200px;
+    padding: 10px;
+}
+
+#dropdownMenu a{
+    display:block;
+    padding: 10px;
+}
+
+#dropdown:hover #dropdownMenu{
+    display: block;
+}
+
+button#download{
+    background-color: white;
+    border-radius: 30px;
+    border: 3px solid #FF4B63;
+    color: #FF4B63;
+    font-weight: 700;
+    padding: 5px 30px;
+}
+
+button#download:hover{
+    background-color: #FF4B63;
+    color: white;
+}
+
+#mobileMenuDropdown{
+    color: #FF4B63;
+    border: 3px solid #FF4B63;
+    border-radius: 5px;
+    display: none;
+}
+.image {
+    position: relative;
+    left: 0px;
+    top: 20px;
+    display: flex;
+}
+
+.title {
+    position: relative;
+    left: 475px;
+    bottom: 550px;
+    width: 350px;
+}
+
+.p1 {
+    line-height: 200%;
+    text-align: justify;
+    position: relative;
+    left: 475px;
+    bottom: 550px;
+    width: 380px;
+}
+
+.list {
+    line-height: 100%;
+    text-align: justify;
+    position: relative;
+    left: 450px;
+    bottom: 535px;
+    width: 365px;
+}
+
+.lightBox {
+    position: relative;
+    left: 475px;
+    bottom: 520px;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: rgb(255,85,110,255);
+    cursor: pointer;
+}
+
+.secondSection {
+    background-color: rgb(232,239,246,255);
+    position: relative;
+    width: 150%;
+    bottom: 410px;
+    height: 700px;
+}
+
+.buttons {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 125px;
+    height: 30px;
+    border: 1px solid transparent;
+    color: rgb(78, 78, 78);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.buttons:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.buttons:active {
+    background-color: blueviolet;
+}
+
+.image2 {
+    position: relative;
+    left: 550px;
+    bottom: 440px;
+    display: flex;
+}
+
+.secondParagraph {
+    top: 30px;
+    left: 50px;
+    line-height: 200%;
+    text-align: justify;
+    position: relative;
+    width: 400px;
+}
+
+.list2 {
+    top: 40px;
+    left: 25px;
+    line-height: 150%;
+    text-align: justify;
+    position: relative;
+    width: 400px;
+}
+
+.terms-btn {
+    position: relative;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid transparent;
+    color: white;
+    background-color: rgb(255,85,110,255);
+    cursor: pointer;
+    top: 60px;
+    left: 50px;
+}
+
+.privacy-btn {
+    position: relative;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    border: 2px solid black;
+    top: 60px;
+    left: 60px;
+    cursor: pointer;
+    background-color: transparent;
+}
